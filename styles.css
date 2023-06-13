@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation bar styling*/
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: #0261a8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+
+#iitplogo {
+    margin: 10px 35px;
+}
+
+#iitplogo img {
+    height: 60px;
+}
+
+#header {
+    margin: 10px 0px;
+    padding-right: 39px;
+}
+
+#header span {
+    font-family: 'Avenir-Demi';
+    display: inline-block;
+    width: auto;
+    height: auto;
+    color: #f5f4f0;
+    line-height: 25px;
+}
+
+#header .heading_english {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#header .heading_hindi {
+    color: rgb(158, 234, 255);
+    font-size: 15px;
+}
+
+
+/*list styling*/
+
+#navbar ul {
+    display: flex;
+    font-family: 'Avenir-Demi';
+}
+
+#navbar ul li {
+    list-style-type: none;
+    font-size: 0.93rem;
+}
+
+#navbar ul li a {
+    display: block;
+    color: #f5f4f0;
+    padding: 1px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar ul li a:hover {
+    color: black;
+}
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 40px;
+    height: 400px;
+    text-align: left;
+}
+
+/* Introduction part */
+
+#intro {
+    margin: 16px 40px;
+    padding: 3px;
+}
+
+#intro h1 {
+    font-size: 1.8rem;
+    color: #695d46;
+    background-color: transparent;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    vertical-align: baseline;
+    padding-bottom: 30px;
+}
+
+#intro img {
+    height: 279px;
+    width: 490px;
+    padding-bottom: 30px;
+}
+
+#intro h2 {
+    font-size: 22pt;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #008575;
+    background-color: transparent;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    vertical-align: baseline;
+    padding-bottom: 40px;
+}
+
+#intro h3 {
+    font-size: 18pt;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #ff5e0e;
+    background-color: transparent;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    vertical-align: baseline;
+    padding-bottom: 20px;
+}
+
+#intro p {
+    font-size: 15pt;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #38761d;
+    background-color: transparent;
+}
