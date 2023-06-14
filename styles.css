@@ -256,6 +256,21 @@
     padding-bottom: 40px;
 }
 
+.intro-container {
+    display: flex;
+}
+
+.intro-container .para-container {
+    width: 60%;
+    padding-left: 15px;
+}
+
+.img-container img {
+    padding-left: 100px;
+    height: 320px;
+    width: 320px;
+}
+
 .text1 {
     color: #ef2020;
     font-size: 13pt;
@@ -320,6 +335,7 @@
 .footer-area .footer-center {
     width: 100%;
     padding: 20px;
+    padding-right: 40px;
 }
 
 .footer-area .footer-right {
@@ -343,12 +359,13 @@
 .footer-area .footer-center ul {
 
     list-style-type: none;
-    padding-right: 60px;
+    padding-right: 90px;
+    line-height: 20px;
 }
 
 .footer-area .footer-center ul li {
     list-style-type: none;
-    padding: 2px 0px;
+    padding: 3px 0px;
     font-size: 0.83rem;
     margin-left: 0px;
     text-decoration: none;
