@@ -26,6 +26,56 @@
     left: 0px;
 }
 
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: inherit;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0 0 0 0;
+    background-color: #0261a8;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0;
+    display: block;
+    color: #f5f4f0;
+    padding: 1px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    min-width: 160px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #0261a8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    padding-top: 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+
+  .dropdown:hover .dropdown-content {
+    display: grid;
+    grid-row-gap: 20px;
+  }
 #iitplogo {
     margin: 10px 35px;
 }
