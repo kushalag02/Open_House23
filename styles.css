@@ -29,6 +29,18 @@
 #iitplogo {
     margin: 10px 35px;
 }
+.main_cover{
+    display: flex;
+	flex-direction: column;
+	height: 750px;
+	width: 100%;
+	background-image: url('main_cover_bg.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
 
 #iitplogo img {
     height: 60px;
@@ -111,24 +123,60 @@
     padding-bottom: 30px;
 }
 
-#intro img {
-    height: 370px;
-    width: 470px;
-    padding-bottom: 30px;
-}
+.main_cover h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #f5f4f0;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 50%;
+  }
+  .main_cover h1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 55px;
+    background-color: white;
+  }
+  .main_cover h1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+    max-width: 255px;
+    background-color: white;
+  }
+  
 
 #intro h2 {
-    font-size: 22pt;
-    font-family: 'PT Sans Narrow', sans-serif;
-    color: #008575;
-    background-color: transparent;
-    font-weight: bold;
-    font-style: normal;
-    font-variant: normal;
-    text-decoration: none;
-    vertical-align: baseline;
-    padding-bottom: 40px;
-}
+    font-size:34px; font-weight:500; text-transform:uppercase;
+    color: #276490;
+	font-size: 2.5rem;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+  }
+  #intro h2:before {
+      background-color: #c50000;
+      border-radius: 0.25rem;
+      content: '';
+      display: block;
+      height: 0.25rem;
+      width: 100%;
+      margin-bottom: 1.25rem;
+  }
+  
+  
 
 #intro h3 {
     font-size: 18pt;
