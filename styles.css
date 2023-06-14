@@ -112,8 +112,8 @@
 }
 
 #intro img {
-    height: 279px;
-    width: 490px;
+    height: 370px;
+    width: 470px;
     padding-bottom: 30px;
 }
 
@@ -203,7 +203,7 @@
     text-align: left;
     font: bold 16px sans-serif;
     padding: 50px 50px 0px 50px;
-    margin-top: 350px;
+    margin-top: 500px;
 }
 
 .footer-area .footer-center {
@@ -222,9 +222,9 @@
     vertical-align: middle;
     margin: 0;
     padding-bottom: 10px;
-    font-family: Poppins;
+    font-family: 'Avenir-Demi';
     font-weight: 500;
-    font-size: xx-large;
+    font-size: 2.2rem;
 }
 
 .footer-area .footer-center ul {
@@ -235,8 +235,8 @@
 .footer-area .footer-center ul li {
     list-style-type: none;
     padding: 2px 0px;
-    font-size: larger;
-    margin-left: -24px;
+    font-size: 1rem;
+    margin-left: 0px;
     text-decoration: none;
 }
 
@@ -248,7 +248,6 @@
     font-family: 'Open Sans';
     color: #e0ac1c;
     text-decoration: none;
-    ;
 }
 
 .footer-area .footer-right {
@@ -275,7 +274,7 @@
 .footer-area .footer-company-about span {
     display: block;
     color: #ffffff;
-    font-size: 29px;
+    font-size: 1.7rem;
     font-family: Poppins;
     font-weight: bold;
     margin-bottom: 20px;
@@ -290,20 +289,15 @@
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color: #33383b;
-    border-radius: 2px;
-
     font-size: 20px;
-    color: #ffffff;
     text-align: center;
     line-height: 35px;
-
-    margin-right: 3px;
+    padding: 7px;
+    margin-right: 6px;
 }
 
 .text-center {
-
-    margin-top: 470px;
+    margin-top: 450px;
 }
 
 .text-white {
