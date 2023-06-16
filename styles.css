@@ -530,7 +530,6 @@
 
     #intro h3 {
         font-size: 24px;
-
     }
 
     #intro p {
@@ -552,7 +551,7 @@
     .img-container img {
         padding-top: 20px;
         padding-left: 0px;
-        height: 370px;
+        height: auto;
         width: 100%;
     }
 
@@ -592,6 +591,158 @@
     .footer-area .footer-right .footer-company-about span {
         font-size: 1.7rem;
     }
+}
+
+@media only screen and (max-width: 900px) {
+    #navbar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #navbar ul li a {
+        font-size: 0.7rem;
+        padding: 0px 7Opx;
+        padding-bottom: 8px;
+    }
+
+    .header-container {
+        display: flex;
+        height: 70%;
+    }
+
+    #navbar .header-container .iitplogo {
+        width: 40%;
+        margin: 30px 20px;
+        text-align: left;
+        justify-content: left;
+    }
+
+    #navbar .header-container .iitplogo img {
+        width: 60%;
+        padding-right: 10px;
+
+    }
+
+    .header-container .header {
+        display: flex;
+    }
+
+    .header-container .header .heading_english {
+        font-size: 1rem;
+        padding-bottom: 3px;
+    }
+
+    .header-container .header .heading_hindi {
+        font-size: 0.9rem;
+    }
 
 
+    .list-container {
+        height: 30%;
+    }
+
+    .list-container .nav-list {
+        justify-content: left;
+    }
+
+    #home {
+        /* height: 500px; */
+        width: 100%;
+        padding: 3px 0px;
+    }
+
+    .main_cover {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main_cover h1 {
+        margin-left: 40px;
+        font-size: 20px;
+    }
+
+    #intro .intro-container .para-container p {
+        font-size: 14px;
+    }
+
+    .main_cover {
+        height: 500px;
+        width: 100%;
+    }
+
+    .intro-container img {
+        display: block;
+    }
+
+    #intro h2 {
+        font-size: 2.2rem;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .intro-container {
+        display: block;
+    }
+
+
+    #intro p {
+        font-size: 14px;
+    }
+
+    .text1 {
+        font-size: 14px;
+    }
+
+    .text2 {
+        font-size: 14px;
+    }
+
+    .img-container {
+        justify-content: left;
+    }
+
+    .img-container img {
+        padding-top: 30px;
+        padding-left: 0px;
+        height: auto;
+        width: 60%;
+    }
+
+    .footer-area {
+        display: block;
+        width: 100%;
+        text-align: left;
+        font: bold 14px sans-serif;
+        padding: 20px 0px 0px 20px;
+        margin-top: 50px;
+    }
+
+    .footer-area .footer-center {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+    }
+
+    .footer-area .footer-center p {
+        margin: 0;
+        padding-bottom: 10px;
+        font-weight: bold;
+        font-size: 1.7rem;
+        font-family: Poppins;
+    }
+
+    .footer-area .footer-center ul li {
+        font-size: 0.7rem;
+    }
+
+    .text-white {
+        font-size: 1rem;
+    }
+
+    .footer-area .footer-right .footer-company-about span {
+        font-size: 1.7rem;
+    }
 }
