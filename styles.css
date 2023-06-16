@@ -6,24 +6,13 @@
     padding: 0;
 }
 
-#navbar {
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 0px;
-}
 
-#navbar::before {
-    content: "";
-    background-color: #0261a8;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    top: 0px;
-    left: 0px;
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
 }
-
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+}
 #navbar .iitplogo {
     width: 7%;
     margin: 10px 10px;
@@ -32,24 +21,22 @@
 
 }
 
+
 #navbar .iitplogo img {
-    width: 65%;
+    width: 100px;
     padding-left: 20px;
     padding-right: 10px;
 }
 
 /* List styling */
 
-.list-container {
-    justify-content: right;
-}
 
-.list-container .nav-list {
+/* .list-container .nav-list {
     display: flex;
     font-family: 'Avenir-Demi';
-}
+} */
 
-.list-container .nav-list li {
+/* .list-container .nav-list li {
     text-align: right;
     list-style-type: none;
     font-size: 0.93rem;
@@ -65,12 +52,12 @@
 }
 
 .list-container .nav-list li a:hover {
-    color: black;
-}
+    color:#f5f4f0;
+} */
 
 /* Dropdown button */
 
-.dropdown {
+/* .dropdown {
     float: left;
     overflow: hidden;
 }
@@ -83,7 +70,7 @@
     padding: 0 0 0 0;
     background-color: #0261a8;
     font-family: inherit;
-    /* Important for vertical align on mobile phones */
+
     margin: 0;
     display: block;
     color: #f5f4f0;
@@ -96,7 +83,6 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    /* background-color: #f9f9f9; */
     min-width: 160px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -119,7 +105,7 @@
 .dropdown:hover .dropdown-content {
     display: grid;
     grid-row-gap: 20px;
-}
+} */
 
 /* header */
 
