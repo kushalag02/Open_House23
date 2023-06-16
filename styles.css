@@ -10,11 +10,46 @@
 .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
 }
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
     color: #ffffff;
 }
+
 #navbar .iitplogo {
-    width: 7%;
+    width: 4%;
+}
+
+#navbar .iitplogo a img {
+    width: 50px;
+}
+
+#navbar .header {
+    padding-left: 30px;
+}
+
+#navbar .header span {
+    font-family: "Avenir-Demi";
+    display: inline-block;
+    width: auto;
+    height: auto;
+    color: #f5f4f0;
+    line-height: 25px;
+    padding-right: 60px;
+}
+
+#navbar .header .heading_english {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+
+#navbar .header .heading_hindi {
+    color: rgb(158, 234, 255);
+    font-size: 18px;
+}
 
 #navbar .header-container {
     display: flex;
@@ -30,56 +65,8 @@
 
 #navbar .iitplogo img {
     width: 100px;
-#navbar .header-container .iitplogo img {
-    width: 50%;
-    padding-left: 20px;
-    padding-right: 10px;
 }
 
-/* header */
-
-.header {
-    /* width: 60%; */
-    margin: 10px 0px;
-}
-
-.header span {
-    font-family: "Avenir-Demi";
-    display: inline-block;
-    width: auto;
-    height: auto;
-    color: #f5f4f0;
-    line-height: 25px;
-}
-
-.header .heading_english {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.header .heading_hindi {
-    color: rgb(158, 234, 255);
-    font-size: 15px;
-}
-
-/* List styling */
-
-
-/* .list-container .nav-list {
-    display: flex;
-    font-family: 'Avenir-Demi';
-} */
-
-/* .list-container .nav-list li {
-    text-align: right;
-    font-family: "Avenir-Demi";
-}
-
-.list-container .nav-list li {
-    /* text-align: right; */
-    list-style-type: none;
-    font-size: 0.93rem;
-}
 
 .list-container .nav-list li a {
     display: block;
@@ -91,8 +78,8 @@
 }
 
 .list-container .nav-list li a:hover {
-    color:#f5f4f0;
-} */
+    color: #f5f4f0;
+}
 
 /* Dropdown button */
 
