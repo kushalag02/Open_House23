@@ -111,15 +111,6 @@
     background-color: white;
 }
 
-@media (max-width: 800px) {
-    .main_cover{
-        align-items: center
-    }
-    .para-container{
-        display: block;
-    }
-
-}
 .main_cover h1:after {
     content: "";
     position: absolute;
@@ -160,9 +151,9 @@
 }
 
 .intro-container .para-container {
+    width: 70%;
     padding-left: 15px;
     line-height: 29px;
-    margin-right: 20px;
 }
 
 .intro-container .para-container h3 {
@@ -235,12 +226,14 @@
     font-size: 0.9rem;
 }
 
+.img-container {
+    justify-content: right;
+}
 
 .img-container img {
-    margin: 20px 20px 20px 20px;
-    max-height: 370px;
-    max-width: 380px;
-    width: 100%;
+    padding-left: 90px;
+    height: 370px;
+    width: 380px;
 }
 
 /* Footer area */
